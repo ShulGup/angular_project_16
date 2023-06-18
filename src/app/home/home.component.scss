@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: 50% auto;
+}
+.col {
+    padding: .4rm 1.3em;
+}
+.top {
+    height: 20%;
+    margin-top: 6em;
+}
+.color-dark {
+    background: #2885C4;
+    color: white;
+}
+.color-light {
+    background: #57B3f1;
+}
+p {
+    margin-left: 2em;
+}
+input.txt {
+    border: 0;
+    padding: 1em;
+    width: 80%;
+    margin-bottom:2em;
+    margin-left: 2em;
+}
+input.btn {
+    border: 0;
+    display: block;
+    padding: 1em 3em;
+    background: #A5F883;
+    color: #003A61;
+    margin-bottom: 1em;
+    cursor: pointer;
+    margin-left: 2em;
+}
+.life-container {
+    background: #3FA0E1;
+    padding: .5em;
+    font-weight: bold;
+    cursor: pointer;
+    width: 80%;
+    color:aliceblue
+}
