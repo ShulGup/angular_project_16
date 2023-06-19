@@ -38,10 +38,10 @@ import { DataService } from '../data.service';
 })
 export class HomeComponent implements OnInit{
   
-  itemCount: number = 0;
-  btnText: string = 'Add an item';
-  goalText: string = 'first goal text';
-  goals: any = [];
+  public itemCount: number = 0;
+  public btnText: string = 'Add an item';
+  public goalText: string = 'first goal text';
+  public goals: any = [];
   
   constructor(private _data: DataService) {}
   
